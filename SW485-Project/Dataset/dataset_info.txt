@@ -1,0 +1,23 @@
+Dataset Name: Indian Liver Patient Records
+
+Source:
+https://www.kaggle.com/datasets/uciml/indian-liver-patient-records
+
+License:
+CC0: Public Domain
+
+Original Purpose:
+The dataset was created to support classification tasks for detecting liver disease 
+based on clinical and biochemical test results.
+
+Usability Score:
+8.82 (as reported on Kaggle)
+
+Number of Records:
+583
+
+Number of Features:
+11 (including target variable)
+
+Target Variable:
+Dataset (1 = Liver Disease, 2 = No Liver Disease)
