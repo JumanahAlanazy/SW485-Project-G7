@@ -7,10 +7,12 @@ There are a few reasons why we think this is a worthwhile problem to work on:
 - **There's a gender gap in diagnosis.** Some studies show that women tend to get diagnosed later than men, so we want to look into that in our data.
 - **It uses tests that are already done.** The features we're working with (blood markers) are part of routine checkups, so there's no extra cost for the patient.
 
-Riyam Alhajress - 444200780
-Ghada Altuwijri - 444201104
-Tala Albulwi - 444200684
-Alanoud Alshuwaier - 444200792
-Jana Albahkali - 444201216
-Jumanah Alanazy - 444200443
-Munirah Alshathri - 444200669
+## Team Student Name:
+
+- Riyam Alhajress - 444200780
+- Ghada Altuwijri - 444201104
+- Tala Albulwi - 444200684
+- Alanoud Alshuwaier - 444200792
+- Jana Albahkali - 444201216
+- Jumanah Alanazy - 444200443
+- Munirah Alshathri - 444200669
