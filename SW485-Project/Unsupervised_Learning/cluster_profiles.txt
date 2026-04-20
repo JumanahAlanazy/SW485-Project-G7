@@ -1,6 +1,6 @@
 K-Means Clustering Results
 ----------------------------------------
-WCSS: 5272.9574965812
+WCSS: 5272.957496581195
 Silhouette Score: 0.1882
 Davies-Bouldin Index: 1.6507
 BCubed Precision: 0.9612
