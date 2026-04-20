@@ -1,0 +1,6 @@
+Hierarchical Clustering Results (k=3)
+Silhouette Score: 0.1587
+Davies-Bouldin Index: 1.7764
+Total WCSS: 5714.3834
+BCubed Precision: 0.6099
+BCubed Recall: 0.5183

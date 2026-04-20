@@ -1,5 +1,5 @@
 Logistic Regression Classification Report:
-5-Fold CV F1 Score: 0.687 ± 0.047
+5-Fold CV F1 Score: 0.687 Â± 0.047
 ------------------------------
               precision    recall  f1-score   support
 
