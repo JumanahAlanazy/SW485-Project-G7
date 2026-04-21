@@ -1,7 +1,75 @@
-K-Means Clustering Results
-----------------------------------------
-WCSS: 5272.9574965811935
-Silhouette Score: 0.1882
-Davies-Bouldin Index: 1.6507
-BCubed Precision: 0.9612
-BCubed Recall: 0.3054
+CLUSTERING PROFILES SUMMARY
+
+
+Dataset: Indian Liver Patient Records
+Methods: K-Means Clustering & Hierarchical Clustering
+
+
+
+1. K-MEANS CLUSTERING SUMMARY
+
+
+Cluster Interpretation:
+
+Cluster 0:
+Patients with relatively normal liver enzyme levels and low bilirubin.
+
+Cluster 1:
+Patients with elevated bilirubin and abnormal liver enzyme levels, indicating possible liver dysfunction.
+
+Cluster 2:
+Patients with moderate or borderline biomarker levels, potentially representing an early-risk group.
+
+
+Key Findings:
+
+- The Silhouette Score (0.188) and Davies-Bouldin Index (1.65) indicate weak cluster separation and overlapping boundaries.
+- BCubed Precision is high (0.96), meaning patients grouped together tend to share similar characteristics.
+- BCubed Recall is low (0.30), indicating clusters do not fully capture disease distribution.
+- This suggests liver disease progression is continuous rather than discrete.
+
+Conclusion:
+K-Means produces compact and efficient clusters but struggles to fully separate medical conditions due to overlapping patient profiles.
+
+
+
+2. HIERARCHICAL CLUSTERING SUMMARY
+
+
+Cluster Interpretation:
+
+Cluster 1:
+Severe cases with high bilirubin and elevated liver enzymes (strong liver inflammation).
+
+Cluster 3:
+Moderate cases with intermediate enzyme levels (possible early-stage risk group).
+
+Cluster 2:
+Normal or healthy patients with low enzyme levels and bilirubin.
+
+
+Key Findings:
+
+- Silhouette Score (0.1587) and Davies-Bouldin Index (1.7764) indicate weak separation and overlapping clusters.
+- BCubed Precision (~0.61) shows moderate correctness of grouping.
+- BCubed Recall (~0.51) shows better coverage of disease distribution than K-Means.
+- Clusters align more with severity progression than strict classification.
+
+Conclusion:
+Hierarchical Clustering provides more interpretable, medically meaningful groupings but is sensitive to outliers and still shows overlap in patient profiles.
+
+3. OVERALL COMPARISON
+
+
+- K-Means:
+  → Better internal clustering quality
+  → More compact clusters
+  → Higher precision but lower recall
+
+- Hierarchical Clustering:
+  → Better clinical interpretability
+  → Captures disease progression more effectively
+  → Higher recall but slightly weaker structure metrics
+
+Final Insight:
+Both methods confirm that liver disease data is continuous rather than naturally separable. K-Means is more practical for system deployment, while Hierarchical Clustering is better for interpretation and analysis.
